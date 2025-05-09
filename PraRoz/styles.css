@@ -1,0 +1,37 @@
+.flexbox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container{
+	height: 380px;
+	width: 640px;
+	display: flex;
+	/* justify-content: center;
+	align-items: center; */
+	/* margin: auto; */
+	/* background-color: red; */
+}
+
+.circle{
+	border-radius: 50%;
+	/* background-color: blue; */
+}
+
+#circle1{
+	left: 740px;
+	top: 50px;
+	box-shadow: 0 0 150px 121px #FF0D6A;
+}
+/* 
+#circle2{
+	justify-content: center;
+	box-shadow: 0 0 150px 121px #0500FF;
+}
+
+#circle3{
+	justify-content: right;
+	box-shadow: 0 0 150px 121px #00FFE0;
+} */
