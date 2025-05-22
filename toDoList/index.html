@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>To Do</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
   </head>
   <body>
+    <h1 class="title">To Do</h1>
     <div class="board" id="board">
       <div class="to-do" id="to-do">
         <input
@@ -19,10 +23,7 @@
         </button>
       </div>
 	  <div class="line"></div>
-	  <div class="added-task">
-		  <input type="checkbox" class="task-checkbox"/>
-		  <div class="added-task-content">hello</div>
-	  </div>
+    <div class="tasks" id="tasks"></div>
     </div>
     <script src="script.js"></script>
   </body>
