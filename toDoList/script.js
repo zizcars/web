@@ -45,5 +45,13 @@ document.getElementById('board').addEventListener('click', (e) => {
 	}
 });
 
+document.addEventListener('click', function (event) {
+    if (event.target.classList.contains('added-task-content')) {
+      event.target.classList.toggle('expanded');
+    }
+});
+
+
+
 // const checkbox = document.querySelector(".tasks");
 // console.log(checkbox.childElementCount);
